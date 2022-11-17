@@ -11,25 +11,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body">
   <header class="header">
      <div class="header__logo">
       <img src="/images/logo qubit.png" alt="logo Qubit">
      </div>
-        <div class="header__menuContainer">
-        <nav class="header__menu">
-            <a class="header__menuLink" href="/">Why Qubit?</a>
-            <a class="header__menuLink" href="/">Products</a>
-            <a class="header__menuLink" href="/">Solutions</a>
-            <a class="header__menuLink" href="/">Customers</a>
-            <a class="header__menuLink" href="/">Case studies</a>
-            <a class="header__menuLink" href="/">Resources</a>
-            <a class="header__menuLink" href="/">More</a>
-        </nav>
+        <div class="header__menu">
+            <a class="header__link" href="/">Why Qubit?</a>
+            <a class="header__link" href="/">Products</a>
+            <a class="header__link" href="/">Solutions</a>
+            <a class="header__link" href="/">Customers</a>
+            <a class="header__link" href="/">Case studies</a>
+            <a class="header__link" href="/">Resources</a>
+            <a class="header__link" href="/">More</a>
         </div>
-     <div class="header__button">
-         <button class="header__buttonMain">Book a demo</button>
-         <a class="header__buttonLink" href="/">Log In</a>
+     <div>
+         <button class="button">Book a demo</button>
+         <a class="header__link" href="/">Log In</a>
      </div>
   </header>
 
@@ -37,73 +35,84 @@
     <section class="hero">
       <div class="hero__content">
         <p class="hero__content_top">Driving growth with personalization.</p>
-        <h1 class="hero__content_title-first">Make ecommerce</h1>
-        <h1 class="hero__content_title-second">More personal.</h1>
-        <p class="hero__content_description">Hundreds of brands use <b>Qubit CommerceAI</b> to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.</p>
-       
+        <div class="hero__title">
+          <h1 class="title_size_l">Make ecommerce</h1>
+          <h1 class="title_size_l title_size_l-purple">More personal.</h1>
+        </div>
+        <div class="hero__description">
+          <p class="description_size_s">Hundreds of brands use <b>Qubit CommerceAI</b> to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.</p>
+        </div>
         <div class="hero__form">
         <form>
-          <input class="hero__form_email" type="email" placeholder="Enter your email">
-          <button class="hero__form_button">Book a demo</button>
+          <input class="input__form-email" type="email" placeholder="Enter your email">
+          <button class="button button_left-sliced">Book a demo</button>
         </form>
-      </div> 
-
+        </div> 
       </div> 
     </section>  
 
-       <section class="brands">
-            <h3 class="brands__title">Trusted by world-class brands.</h3>
-              <div class="brands__logo">
-                  <img src="/images/Barbour.png" alt="Logo Barbour">
-                  <img src="/images/kate spade.png" alt="Logo Kate spade">
-                  <img src="/images/LVMH.png" alt="Logo LVMH"></li>
-                  <img src="/images/Estee Lauder.png" alt="Logo Estee Lauder">
-                  <img src="/images/TJX.png" alt="Logo TJX"></li>
-                  <img src="/images/River Island.png" alt="Logo River Island">
-                  <img src="/images/Radisson.png" alt="Logo Radisson">
-                  <img src="/images/G-Star raw.png" alt="Logo G-Srar raw">
-              </div>
-              <a class="brands__link" href="/">Meet our customers ></a>
-        </section>
-        <section class="statistics">
-          <div class="statistics__demo">
-            <h2 class="statistics__title">Grow 2.5x faster than<br>your competitors.</h2>
-             <div class="statistics__form">
-              <button class="header__buttonMain">Book a demo</button>
-              <a class="statistics__link" href="/">Meet our customers ></a>
-             </div> 
-             <p class="statistics__pws">*PwC audited methodology.</p>
-             <a class="statistics__report" href="/">Read the report</a>
-          </div>
-          <div>
-            <ul class="statistics__number">
-              <li class="statistics__positive">
-                <h3 class="statistics__titlePositive">140%</h3>
-                <p class="statistics__descriptionPositive">Qubit's top customers<br>annual growth rate.</p>
-              </li>
-              <li class="statistics__positive">
-                <h3 class="statistics__titlePositive">9.5m</h3>
-                <P class="statistics__descriptionPositive">Personalized experiences<br>delivered every hour.</P>
-              </li>
-              <li class="statistics__positive">
-                <h3 class="statistics__titlePositive">$20bn</h3>
-                <P class="statistics__descriptionPositive">Online sales generated<br>by our customers in 2020.</P>
-              </li>
-              <li class="statistics__positive">
-                <h3 class="statistics__titlePositive">4.4m</h3>
-                <P class="statistics__descriptionPositive">Shoppers influenced<br>by Qubit every day.</P>
-              </li>
-              <li class="statistics__positive">
-                <h3 class="statistics__titlePositive">364</h3>
-                <P class="statistics__descriptionPositive">Ecommerce stores are<br>by our customers in 2020.</P>
-              </li>
-              <li class="statistics__positive">
-                <h3 class="statistics__titlePositive">$1.6bn</h3>
-                <P class="statistics__descriptionPositive">Incremental revenue generated<br>by our customers in 2020.*</P>
-              </li>
-            </ul>
-          </div>
-        </section>
+    <section class="brands">
+      <div class="brands__title">
+        <h3 class="title_size_xs">Trusted by world-class brands.</h3> 
+      </div>
+        <div class="brands__logo">
+          <img src="/images/Barbour.png" alt="Logo Barbour">
+          <img src="/images/kate spade.png" alt="Logo Kate spade">
+          <img src="/images/LVMH.png" alt="Logo LVMH"></li>
+          <img src="/images/Estee Lauder.png" alt="Logo Estee Lauder">
+          <img src="/images/TJX.png" alt="Logo TJX"></li>
+          <img src="/images/River Island.png" alt="Logo River Island">
+          <img src="/images/Radisson.png" alt="Logo Radisson">
+          <img src="/images/G-Star raw.png" alt="Logo G-Srar raw">
+        </div>
+        <div class="brands__link">
+          <a class="link__customer" href="/">Meet our customers ></a>
+        </div>
+    </section>
+
+/*Дальше не проверять*/
+
+
+
+    <section class="statistics">
+      <div class="statistics__demo">
+        <h2 class="statistics__title">Grow 2.5x faster than<br>your competitors.</h2>
+        <div class="statistics__form">
+          <button class="header__buttonMain">Book a demo</button>
+          <a class="statistics__link" href="/">Meet our customers ></a>
+        </div> 
+        <p class="statistics__pws">*PwC audited methodology.</p>
+        <a class="statistics__report" href="/">Read the report</a>
+      </div>
+      <div>
+        <ul class="statistics__number">
+          <li class="statistics__positive">
+            <h3 class="statistics__titlePositive">140%</h3>
+            <p class="statistics__descriptionPositive">Qubit's top customers<br>annual growth rate.</p>
+          </li>
+          <li class="statistics__positive">
+            <h3 class="statistics__titlePositive">9.5m</h3>
+            <P class="statistics__descriptionPositive">Personalized experiences<br>delivered every hour.</P>
+          </li>
+          <li class="statistics__positive">
+            <h3 class="statistics__titlePositive">$20bn</h3>
+            <P class="statistics__descriptionPositive">Online sales generated<br>by our customers in 2020.</P>
+          </li>
+          <li class="statistics__positive">
+            <h3 class="statistics__titlePositive">4.4m</h3>
+            <P class="statistics__descriptionPositive">Shoppers influenced<br>by Qubit every day.</P>
+          </li>
+          <li class="statistics__positive">
+            <h3 class="statistics__titlePositive">364</h3>
+            <P class="statistics__descriptionPositive">Ecommerce stores are<br>by our customers in 2020.</P>
+          </li>
+          <li class="statistics__positive">
+            <h3 class="statistics__titlePositive">$1.6bn</h3>
+            <P class="statistics__descriptionPositive">Incremental revenue generated<br>by our customers in 2020.*</P>
+          </li>
+        </ul>
+      </div>
+   </section>
       
         <div class="commerceal">
           <h2 class="commerceal__title">Qubit CommerceAI.</h2>
@@ -211,10 +220,74 @@
             <div>
               <img src="/images/Vector 2.png" alt="right arrow">
             </div>
-
           </div>
         </section>
 
+        <section class="specialization">
+          <h2 class="specialization__title">We specialize in your industry.</h2>
+          <p class="specialization__descriptionTitle">Learn how we are delivering personalization at scale across sectors.</p>
+          
+          <div class="specialization__sectors">
+
+            <div class="specialization__styleSectors">
+              <div class="specialization__styleSectors_top">
+                <img src="/images/logo beauty and cosmetics.png" alt="Logo Beauty and cosmetics">
+                <h3 class="specialization__styleSectors_titleTop">Beauty and cosmetics</h3>
+              </div>
+              <p class="specialization__styleSectors_bottom">Discover relevant products. Push samples. Upsell and replenish.</p>
+              <a class="specialization__styleSectors_linkBottom" href="/">Explore our solutions for beauty and cosmetics.</a>
+            </div>
+
+            <div class="specialization__styleSectors">
+              <div class="specialization__styleSectors_top">
+                <img src="/images/logo fashion.png" alt="Logo fashion">
+                <h3 class="specialization__styleSectors_titleTop">Fashion</h3>
+              </div>
+              <p class="specialization__styleSectors_bottom">Supercharge merchandising. Reach your best customers.</p>
+              <a class="specialization__styleSectors_linkBottom" href="/">Explore our solutions for fashion.</a>
+            </div>
+
+            <div class="specialization__styleSectors">
+              <div class="specialization__styleSectors_top">
+                <img src="/images/logo luxury.png" alt="Logo Luxury">
+                <h3 class="specialization__styleSectors_titleTop">Luxury</h3>
+              </div>
+              <p class="specialization__styleSectors_bottom">Drive brand experience online. Look after your VIPs.</p>
+              <a class="specialization__styleSectors_linkBottom" href="/">Explore our solutions for luxury.</a>
+            </div>
+
+            <div class="specialization__styleSectors">
+              <div class="specialization__styleSectors_top">
+                <img src="/images/logo airlinspng.png" alt="Logo Airlines">
+                <h3 class="specialization__styleSectors_titleTop">Airlines</h3>
+              </div>
+              <p class="specialization__styleSectors_bottom">Increase loyalty. Boost ancillary sales. Capture every opportunity.</p>
+              <a class="specialization__styleSectors_linkBottom" href="/">Explore our solutions for airlines.</a>
+            </div>
+
+            <div class="specialization__styleSectors">
+              <div class="specialization__styleSectors_top">
+                <img src="/images/logo travel.png" alt="Logo Travel & tourism">
+                <h3 class="specialization__styleSectors_titleTop">Travel & tourism</h3>
+              </div>
+              <p class="specialization__styleSectors_bottom">Be persuasive. Inspire travellers. Drive revenue.</p>
+              <a class="specialization__styleSectors_linkBottom" href="/">Explore our solutions for travel and tourism.</a>
+            </div>
+
+            <div class="specialization__styleSectors">
+              <div class="specialization__styleSectors_top">
+                <img src="/images/logo online betting.png" alt="Logo Online betting">
+                <h3 class="specialization__styleSectors_titleTop">Online betting</h3>
+              </div>
+              <p class="specialization__styleSectors_bottom">Bring events to life. Personalize in real time. Be responsible.</p>
+              <a class="specialization__styleSectors_linkBottom" href="/">Explore our solutions for online betting.</a>
+            </div>
+
+
+          </div>
+          
+
+        </section>
 
 
 
