@@ -1,0 +1,25 @@
+.brands {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 284px;
+ }
+ 
+.brands__title{
+  margin: 0;
+  margin-bottom: 29px;
+  text-align: center;
+  color: #1c1c1c;
+}
+
+.brands__logo {
+  margin-bottom: 26px;
+  padding: 0 115px;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.brands__link {
+  margin: 0;
+  text-align: center;
+}

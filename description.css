@@ -1,0 +1,15 @@
+.description {
+  margin: 0;
+}
+
+.description_size_s {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.description_size_xs {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}

@@ -1,0 +1,12 @@
+.form {
+  margin: 0;
+}
+
+.input__form-email {
+  padding: 13px 40px 11px 26px;
+  border: 1px solid #6f2cff;
+  border-radius: 27.5px 0px 0px 27.5px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+}

@@ -7,6 +7,14 @@
   <title>Qubit</title>
   <link rel="stylesheet" href="/normalize.css">
   <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/header.css">
+  <link rel="stylesheet" href="/button.css">
+  <link rel="stylesheet" href="/hero.css">
+  <link rel="stylesheet" href="/title.css">
+  <link rel="stylesheet" href="/description.css">
+  <link rel="stylesheet" href="/form.css">
+  <link rel="stylesheet" href="/brands.css">
+  <link rel="stylesheet" href="/link.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
@@ -34,17 +42,23 @@
   <main>
     <section class="hero">
       <div class="hero__content">
-        <p class="hero__content_top">Driving growth with personalization.</p>
+        <div class="hero__content_top">
+          <div class="description">
+            <p class="description description_size_xs">Driving growth with personalization.</p>
+          </div>
+        </div>
         <div class="hero__title">
-          <h1 class="title_size_l">Make ecommerce</h1>
-          <h1 class="title_size_l title_size_l-purple">More personal.</h1>
+          <div class="title">
+           <h1 class="title title_size_l">Make ecommerce</h1>
+           <h1 class=" title title_size_l title_purple">More personal.</h1>
+          </div>
         </div>
         <div class="hero__description">
-          <p class="description_size_s">Hundreds of brands use <b>Qubit CommerceAI</b> to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.</p>
+          <p class="description description_size_s">Hundreds of brands use <b>Qubit CommerceAI</b> to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.</p>
         </div>
         <div class="hero__form">
-        <form>
-          <input class="input__form-email" type="email" placeholder="Enter your email">
+        <form class="form">
+          <input class="form input__form-email" type="email" placeholder="Enter your email">
           <button class="button button_left-sliced">Book a demo</button>
         </form>
         </div> 
@@ -53,7 +67,7 @@
 
     <section class="brands">
       <div class="brands__title">
-        <h3 class="title_size_xs">Trusted by world-class brands.</h3> 
+        <h3 class="title title_size_xs">Trusted by world-class brands.</h3> 
       </div>
         <div class="brands__logo">
           <img src="/images/Barbour.png" alt="Logo Barbour">
@@ -66,11 +80,13 @@
           <img src="/images/G-Star raw.png" alt="Logo G-Srar raw">
         </div>
         <div class="brands__link">
-          <a class="link__customer" href="/">Meet our customers ></a>
+          <div class="link">
+           <a class="link link__customer" href="/">Meet our customers ></a>
+          </div>
         </div>
     </section>
 
-/*Дальше не проверять*/
+/*Дальше не проверять!!!!!!!!!!!!!*/
 
 
 
