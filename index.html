@@ -5,16 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Qubit</title>
-  <link rel="stylesheet" href="/normalize.css">
-  <link rel="stylesheet" href="/index.css">
-  <link rel="stylesheet" href="/header.css">
-  <link rel="stylesheet" href="/button.css">
-  <link rel="stylesheet" href="/hero.css">
-  <link rel="stylesheet" href="/title.css">
-  <link rel="stylesheet" href="/description.css">
-  <link rel="stylesheet" href="/form.css">
-  <link rel="stylesheet" href="/brands.css">
-  <link rel="stylesheet" href="/link.css">
+  <link rel="stylesheet" href="/CSS/normalize.css">
+  <link rel="stylesheet" href="/CSS/index.css">
+  <link rel="stylesheet" href="/CSS/header.css">
+  <link rel="stylesheet" href="/CSS/button.css">
+  <link rel="stylesheet" href="/CSS/hero.css">
+  <link rel="stylesheet" href="/CSS/title.css">
+  <link rel="stylesheet" href="/CSS/description.css">
+  <link rel="stylesheet" href="/CSS/form.css">
+  <link rel="stylesheet" href="/CSS/brands.css">
+  <link rel="stylesheet" href="/CSS/link.css">
+  <link rel="stylesheet" href="/CSS/statistics.css">
+  <link rel="stylesheet" href="/CSS/commerceal.css">
+  <link rel="stylesheet" href="/CSS/tool.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
@@ -25,40 +28,38 @@
       <img src="/images/logo qubit.png" alt="logo Qubit">
      </div>
         <div class="header__menu">
-            <a class="header__link" href="/">Why Qubit?</a>
-            <a class="header__link" href="/">Products</a>
-            <a class="header__link" href="/">Solutions</a>
-            <a class="header__link" href="/">Customers</a>
-            <a class="header__link" href="/">Case studies</a>
-            <a class="header__link" href="/">Resources</a>
-            <a class="header__link" href="/">More</a>
+            <a class="header__link header__link_size link link__dark-grey" href="/">Why Qubit?</a>
+            <a class="header__link header__link_size link link__dark-grey" href="/">Products</a>
+            <a class="header__link header__link_size link link__dark-grey" href="/">Solutions</a>
+            <a class="header__link header__link_size link link__dark-grey" href="/">Customers</a>
+            <a class="header__link header__link_size link link__dark-grey" href="/">Case studies</a>
+            <a class="header__link header__link_size link link__dark-grey" href="/">Resources</a>
+            <a class="header__link header__link_size link link__dark-grey" href="/">More</a>   
         </div>
      <div>
          <button class="button">Book a demo</button>
-         <a class="header__link" href="/">Log In</a>
+          <a class="header__link header__link_size link link__dark-grey" href="/">Log In</a>
      </div>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero__content">
-        <div class="hero__content_top">
-          <div class="description">
+        <div class="hero__content-top">
             <p class="description description_size_xs">Driving growth with personalization.</p>
-          </div>
         </div>
         <div class="hero__title">
-          <div class="title">
            <h1 class="title title_size_l">Make ecommerce</h1>
            <h1 class=" title title_size_l title_purple">More personal.</h1>
-          </div>
         </div>
         <div class="hero__description">
-          <p class="description description_size_s">Hundreds of brands use <b>Qubit CommerceAI</b> to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.</p>
+          <p class="description description_size_m">Hundreds of brands use <b>Qubit CommerceAI</b> to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.</p>
         </div>
         <div class="hero__form">
         <form class="form">
-          <input class="form input__form-email" type="email" placeholder="Enter your email">
+          <div>
+            <input class="form__input-email" type="email" placeholder="Enter your email">
+          </div>
           <button class="button button_left-sliced">Book a demo</button>
         </form>
         </div> 
@@ -67,7 +68,7 @@
 
     <section class="brands">
       <div class="brands__title">
-        <h3 class="title title_size_xs">Trusted by world-class brands.</h3> 
+        <h3 class="title title_size_xs title_dark-grey">Trusted by world-class brands.</h3> 
       </div>
         <div class="brands__logo">
           <img src="/images/Barbour.png" alt="Logo Barbour">
@@ -80,92 +81,157 @@
           <img src="/images/G-Star raw.png" alt="Logo G-Srar raw">
         </div>
         <div class="brands__link">
-          <div class="link">
-           <a class="link link__customer" href="/">Meet our customers ></a>
-          </div>
+           <a class="link link__customer link__dark-grey" href="/">Meet our customers ></a>
         </div>
     </section>
 
-/*Дальше не проверять!!!!!!!!!!!!!*/
-
-
-
     <section class="statistics">
       <div class="statistics__demo">
-        <h2 class="statistics__title">Grow 2.5x faster than<br>your competitors.</h2>
+        <div class="statistics__title">
+          <h2 class="title title_size_m title_dark-grey">Grow 2.5x faster than<br>your competitors.</h2>
+        </div>
         <div class="statistics__form">
-          <button class="header__buttonMain">Book a demo</button>
-          <a class="statistics__link" href="/">Meet our customers ></a>
+          <div class="statistics__button">
+            <button class="button button_longer">Book a demo</button>
+          </div>
+          <div class="statistics__link">
+            <a class="link__customer" href="/">Meet our customers ></a>
+          </div> 
         </div> 
-        <p class="statistics__pws">*PwC audited methodology.</p>
-        <a class="statistics__report" href="/">Read the report</a>
+        <div class="statistics__pws">
+          <p class="description description_size_s ">*PwC audited methodology.</p>
+        </div>
+        <div class="statistics__report">
+          <a class="link__report" href="/">Read the report</a>
+        </div>
       </div>
+
       <div>
         <ul class="statistics__number">
+
           <li class="statistics__positive">
-            <h3 class="statistics__titlePositive">140%</h3>
-            <p class="statistics__descriptionPositive">Qubit's top customers<br>annual growth rate.</p>
+            <div class="statistics__title-positive">
+              <h3 class="title title_size_m">140%</h3>
+            </div>
+            <div class="statistics__description-positive">
+              <p class=" description description_size_xs">Qubit's top customers<br>annual growth rate.</p>
+            </div>
           </li>
+
           <li class="statistics__positive">
-            <h3 class="statistics__titlePositive">9.5m</h3>
-            <P class="statistics__descriptionPositive">Personalized experiences<br>delivered every hour.</P>
+            <div class="statistics__title-positive">
+              <h3 class="title title_size_m">9.5m</h3>
+            </div>
+            <div class="statistics__description-positive">
+              <P class=" description description_size_xs">Personalized experiences<br>delivered every hour.</P>
+            </div>
           </li>
+
           <li class="statistics__positive">
-            <h3 class="statistics__titlePositive">$20bn</h3>
-            <P class="statistics__descriptionPositive">Online sales generated<br>by our customers in 2020.</P>
+            <div class="statistics__title-positive">
+              <h3 class="title title_size_m">$20bn</h3>
+            </div>
+            <div class="statistics__description-positive">
+              <P class=" description description_size_xs">Online sales generated<br>by our customers in 2020.</P>
+            </div> 
           </li>
+
           <li class="statistics__positive">
-            <h3 class="statistics__titlePositive">4.4m</h3>
-            <P class="statistics__descriptionPositive">Shoppers influenced<br>by Qubit every day.</P>
+            <div class="statistics__title-positive">
+              <h3 class="title title_size_m">4.4m</h3>
+            </div>
+            <div class="statistics__description-positive">
+              <P class=" description description_size_xs">Shoppers influenced<br>by Qubit every day.</P>
+            </div>
           </li>
+
           <li class="statistics__positive">
-            <h3 class="statistics__titlePositive">364</h3>
-            <P class="statistics__descriptionPositive">Ecommerce stores are<br>by our customers in 2020.</P>
+            <div class="statistics__title-positive">
+              <h3 class="title title_size_m">364</h3>
+            </div>
+            <div class="statistics__description-positive">
+              <P class=" description description_size_xs">Ecommerce stores are<br>by our customers in 2020.</P>
+            </div>
           </li>
+
           <li class="statistics__positive">
-            <h3 class="statistics__titlePositive">$1.6bn</h3>
-            <P class="statistics__descriptionPositive">Incremental revenue generated<br>by our customers in 2020.*</P>
+            <div class="statistics__title-positive">
+              <h3 class="title title_size_m">$1.6bn</h3>
+            </div>
+            <div class="statistics__description-positive">
+              <P class=" description description_size_xs">Incremental revenue generated<br>by our customers in 2020.*</P>
+            </div>
           </li>
+
         </ul>
       </div>
    </section>
       
-        <div class="commerceal">
-          <h2 class="commerceal__title">Qubit CommerceAI.</h2>
-          <p class="commerceal__way">The new way to drive growth.</p>
-          <div>
-            <ul class="commerceal__advantages">
-              <li class="commerceal__listAdvantages">
-                <img src="/images/More insight.png" alt="logo magnifying glass">
-                <h3 class="commerceal__titleAdvanted">More insight</h3>
-                <p class="commerceal__descriptionAdvanted">Learn which products drive performance and which don't, through automated insights you can action.</p>
-              </li>
-              <li class="commerceal__listAdvantages">
-                <img src="/images/More persona.png" alt="logo more persona">
-                <h3 class="commerceal__titleAdvanted">More personal</h3>
-                <p class="commerceal__descriptionAdvanted">Qubit CommerceAI generates a model per shopper to make every customer interaction more relevant.</p>
-              </li>
-              <li class="commerceal__listAdvantages">
-                <img src="/images/More effective.png" alt="logo more effective">
-                <h3 class="commerceal__titleAdvanted">More effective</h3>
-                <p class="commerceal__descriptionAdvanted">Qubit fuses data, intent, and design tools to enable your team to create more effective customer experiences.</p>
-              </li>
-            </ul>
-          </div>
-        </div>
+   <section class="commerceal">
+      <div class="commerceal__title">
+        <h2 class="title title_size_m">Qubit CommerceAI.</h2>
+      </div>
+      <div class="commerceal__way">
+        <p class="description description_size_m">The new way to drive growth.</p>
+      </div>
+          
+      <div>
+        <ul class="commerceal__advantages">
 
-        <section class="tool">
-          <h2 class="tool__title">All the power. Easy to use.</h2>
-          <p class="tool__description">By collaborating with real ecommerce teams we've built the next-gen personalization tool. No code. No clunkiness.</p>
-         <img src="/images/картинка.svg" alt="site screenshot">
-         <div class="tool__button">
-          <button class="tool__button_left">See products</button>
-          <button class="tool__button_right">Book a demo</button>
-         </div>
-        </section>
+          <li class="commerceal__list">
+            <img src="/images/More insight.png" alt="logo magnifying glass">
+            <div class="commerceal__title">
+              <h3 class="title title_size_s">More insight</h3>
+            </div>
+           <div class="commerceal__description">
+             <p class="description description_size_xs">Learn which products drive performance and which don't, through automated insights you can action.</p>
+           </div>  
+          </li>
 
+          <li class="commerceal__list">
+            <img src="/images/More persona.png" alt="logo more persona">
+            <div class="commerceal__title">
+              <h3 class="title title_size_s">More personal</h3>
+            </div>
+            <div class="commerceal__description">
+              <p class="description description_size_xs">Qubit CommerceAI generates a model per shopper to make every customer interaction more relevant.</p>
+            </div>  
+          </li>
+
+          <li class="commerceal__list">
+            <img src="/images/More effective.png" alt="logo more effective">
+            <div class="commerceal__title">
+              <h3 class="title title_size_s">More effective</h3>
+            </div>
+            <div class="commerceal__description">
+              <p class="description description_size_xs">Qubit fuses data, intent, and design tools to enable your team to create more effective customer experiences.</p>
+            </div> 
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section class="tool">
+      <div class="tool__title">
+        <h2 class="title title_size_m">All the power. Easy to use.</h2> 
+      </div>
+      <div class="tool__description">
+        <p class="description description_size_s">By collaborating with real ecommerce teams we've built the next-gen personalization tool. No code. No clunkiness.</p> 
+      </div>
+      <img src="/images/картинка.svg" alt="site screenshot">
+      <div class="tool__button">
+        <button class="button button_longer">See products</button>
+        <button class="button button_longer button_longer-white">Book a demo</button>
+      </div>
+    </section>
+
+    ДАЛЬШЕ НЕ СМОТРЕТЬ!!!!!!!!!!!!
         <section class="proposal">
-          <h2 class="proposal__title">What you can do with Qubit.</h2>
+          <div class="proposal__title">
+            <h2 class="title title_size_m">What you can do with Qubit.</h2>
+          </div>
+          
           <div>
             <ul class="proposal__list">
               <li>

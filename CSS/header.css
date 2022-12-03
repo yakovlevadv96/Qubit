@@ -20,8 +20,10 @@
 
 .header__link {
   padding: 10px 21px;
-  text-decoration: none;
+}
+
+.header__link_size {
   font-weight: 400;
   font-size: 14px;
-  color: #1c1c1c;
-  }
+}
+  

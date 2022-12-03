@@ -17,3 +17,15 @@
   font-size: 15px;
   line-height: 21px;
 }
+
+.button_longer {
+  padding: 11px 45px 14px 45px; 
+  margin-right: 22px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.button_longer-white {
+  background: #ffffff;
+  color: #6f2cff;
+}

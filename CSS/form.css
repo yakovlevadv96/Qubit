@@ -1,8 +1,9 @@
 .form {
   margin: 0;
+  display: flex;
 }
 
-.input__form-email {
+.form__input-email {
   padding: 13px 40px 11px 26px;
   border: 1px solid #6f2cff;
   border-radius: 27.5px 0px 0px 27.5px;
