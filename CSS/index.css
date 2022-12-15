@@ -3,45 +3,9 @@
 }
 
 
-/*ДАЛЬШЕ НЕ СМОТРЕТЬ!!!!!*/
+ДАЛЬШЕ НЕ ПРОВЕРЯТЬ
 
-.proposal {
-  /*padding: 94px 220px 220px 218px;
-  text-align: center;*/
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 846px;
-}
 
-.proposal__title {
-  margin: 0;
-  margin-bottom: 62px;
-}
-
-.proposal__list {
-  margin: 0;
-  padding: 0 220px 0 220px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 110px;
-}
-
-.proposal__titleList {
-  margin-top: 10px;
-  margin-bottom: 11px;
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 45px;
-}
-
-.proposal__descriptionList {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  color: #1c1c1c;
-}
 
 .leadingBrands {
   padding: 88px 162px 105px 162px;
