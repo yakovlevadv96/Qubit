@@ -1,4 +1,4 @@
-.button {
+.button_size_s {
   padding: 11px 34px 15px 34px;
   border-radius: 20px;
   border: none;
@@ -18,14 +18,14 @@
   line-height: 21px;
 }
 
-.button_longer {
+.button_size_m {
   padding: 11px 45px 14px 45px; 
   margin-right: 22px;
   font-size: 15px;
   line-height: 15px;
 }
 
-.button_longer-white {
+.button_white {
   background: #ffffff;
   color: #6f2cff;
 }
