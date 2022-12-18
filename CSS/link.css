@@ -21,3 +21,11 @@
 .link_dark-grey {
   color: #1c1c1c;
 }
+
+.link__specialization {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
