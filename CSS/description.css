@@ -18,6 +18,11 @@
   line-height: 22px;
 }
 
+.description_size_xxs {
+  font-size: 13px;
+  line-height: 30px;
+}
+
 .description_white {
   color: #ffffff;
 }

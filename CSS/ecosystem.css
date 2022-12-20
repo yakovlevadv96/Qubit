@@ -1,0 +1,32 @@
+.ecosystem {
+  margin: 0;
+  height: 627px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ecosystem__specification {
+  margin: 0;
+  width: 588px;
+}
+
+.ecosystem__title {
+  margin: 0;
+  margin-bottom: 47px;
+}
+
+.ecosystem__description_top {
+  margin: 0;
+  margin-bottom: 11px;
+}
+
+.ecosystem__description_bottom {
+  margin: 0;
+  margin-bottom: 74px;
+}
+
+.ecosystem__button {
+  margin: 0;
+}

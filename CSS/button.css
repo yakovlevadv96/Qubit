@@ -33,4 +33,5 @@
 .button__arrow {
   border: none;
   background-color: #f5f5f5;
+  cursor: pointer;
 }
