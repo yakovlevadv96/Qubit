@@ -7,8 +7,7 @@
 }
 
 .proposal__title {
-  margin: 0;
-  margin-bottom: 62px;
+  margin: 0 0 62px;
 }
 
 .proposal__list {
@@ -21,8 +20,7 @@
 }
 
 .proposal__title_secondary {
-  margin-top: 10px;
-  margin-bottom: 11px;
+  margin-top: 10px 0 11px;
 }
 
 .proposal__description {

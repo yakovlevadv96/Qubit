@@ -1,5 +1,5 @@
 .commercial {
-  height: 537px;
+  min-height: 537px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,40 +7,31 @@
 }
 
 .commercial__title {
-  margin: 0;
-  margin-bottom: 22px;
+  margin: 0 0 22px;
 }
 
 .commercial__way {
-  margin: 0;
-  margin-bottom: 60px;
+  margin: 0 0 60px;
 }
 
 .commercial__advantages {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 130px;
-  padding-right: 130px;
+  padding: 0 130px;
   margin: 0;
 }
 
 .commercial__list {
-  margin: 0;
+  margin: 0 40px 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 90px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
-
 .commercial__title {
-  margin: 0;
-  margin-bottom: 16px;
-  margin-top: 46px;
+  margin: 46px 0 16px;
 }
 
 .commercial__description {

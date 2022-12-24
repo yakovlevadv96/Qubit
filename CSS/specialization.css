@@ -8,15 +8,12 @@
 }
 
 .specialization__title {
-  margin: 0;
-  margin-bottom: 12px;
+  margin: 0 0 12px;
 }
 
 .specialization__description {
-  margin: 0;
-  margin-bottom: 65px;
+  margin: 0 0 65px;
 }
-
 
 .specialization__sectors {
   margin: 0;
@@ -43,17 +40,15 @@
   margin-bottom: 31px;
 }
 
-.specialization__title_top{
-  margin: 0;
-  margin-left: 25px;
+.specialization__title_top {
+  margin: 0 0 0 25px;
 }
 
-.specialization__description_bottom {
-  margin: 0;
+.specialization__actions {
+  margin: 0 0 10px;
   max-width: 360px;
-  margin-bottom: 10px;
 }
 
-.specialization__link_bottom{
+.specialization__link {
  margin-bottom: 0;
 }

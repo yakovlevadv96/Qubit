@@ -1,3 +1,8 @@
+.button {
+  margin: 0;
+  cursor: pointer;
+}
+
 .button_size_s {
   padding: 11px 34px 15px 34px;
   border-radius: 20px;
@@ -30,8 +35,7 @@
   color: #6f2cff;
 }
 
-.button__arrow {
+.button_whitesmoke {
   border: none;
   background-color: #f5f5f5;
-  cursor: pointer;
 }

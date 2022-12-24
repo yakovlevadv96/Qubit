@@ -3,11 +3,10 @@
   flex-direction: column;
   justify-content: center;
   height: 284px;
- }
- 
+}
+
 .brands__title {
-  margin: 0;
-  margin-bottom: 29px;
+  margin: 0 0 29px;
   text-align: center;
 }
 

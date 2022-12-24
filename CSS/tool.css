@@ -8,13 +8,11 @@
 }
 
 .tool__title {
-  margin: 0;
-  margin-bottom: 28px;
+  margin: 0 0 28px;
 }
 
 .tool__description {
-  margin: 0;
-  margin-bottom: 90px;
+  margin: 0 0 90px;
 }
 
 .tool__button {
