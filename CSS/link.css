@@ -1,0 +1,31 @@
+.link {
+  margin: 0;
+  text-decoration: none;
+}
+
+.link__customer {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  border-bottom: 2px solid #6f2dff;
+}
+
+.link__report {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.link_dark-grey {
+  color: #1c1c1c;
+}
+
+.link__specialization {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}

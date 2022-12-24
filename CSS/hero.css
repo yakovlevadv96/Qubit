@@ -1,0 +1,36 @@
+.hero {
+  padding-left: 115px;
+  height: 695px;
+  display: flex;
+  align-items: center;
+  background-image: url("/images/Фон\ Qubit.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__content {
+  max-width: 470px;
+}
+
+.hero__content_top {
+  margin: 0;
+  margin-bottom: 19px;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 37px;
+}
+
+.hero__description {
+  margin: 0;
+  margin-bottom: 4px;
+  max-width: 438px;
+}
+
+.hero__form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}

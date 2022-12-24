@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 9px;
+}
+
+.header__logo {
+  max-width: 100%;
+  border-style: none;
+  height: 24px;
+  margin-left: 21px;
+}
+
+.header__menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__link {
+  padding: 10px 21px;
+}
+
+.header__link_size_xs {
+  font-weight: 400;
+  font-size: 14px;
+}
+  
