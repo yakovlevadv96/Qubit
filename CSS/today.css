@@ -1,0 +1,22 @@
+.today {
+  height: 329px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/today.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.today__title {
+  margin: 0;
+  margin-bottom: 39px;
+}
+
+.today__form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
